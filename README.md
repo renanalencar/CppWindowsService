@@ -49,15 +49,15 @@ If you do not see this output, please look for error codes in the output, and in
 
 - **Step 3.** Open Service Management Console (`services.msc`). You should be able to find `CppWindowsService Sample Service` in the service list.
 
-![](53108-image.png)
+![](img/53108-image.png)
 
 - **Step 4.** Right-click the `CppWindowsService` service in Service Management Console and select Start to start the service. Open Event Viewer, and navigate to` Windows Logs >> Application`. You should be able to see this event from `CppWindowsService` with the information:
 
-![](53109-image.png)
+![](img/53109-image.png)
 
 - **Step 5.** Right-click the service in Service Management Console and select Stop to stop the service. You will see this new event from `CppWindowsService` in `Event Viewer >> Windows Logs >> Application` with the information:
 
-![](53110-image.png)
+![](img/53110-image.png)
 
 - **Step 6.** To uninstall the service, enter the following command in the command prompt running as administrator.
 
@@ -67,7 +67,7 @@ CppWindowsService.exe -remove
 
 If the service is successfully removed, you would see this output:
 
-![](53111-image.png)
+![](img/53111-image.png)
 
 ### Using the Code
 
